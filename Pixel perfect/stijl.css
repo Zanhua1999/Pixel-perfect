@@ -1,0 +1,50 @@
+
+#logo {
+  float: left;
+  margin-left: 150px;
+}
+ul;li{
+  list-style:none;
+}
+a{
+  display:block;
+}
+a:link,a:visited{
+  text-decoration: none;
+  color:blue;
+}
+.menu{
+  float: right;
+  margin:0px auto;
+  margin-top: 20px;
+  width:600px;
+  height:30px;
+}
+.menu ul{
+  margin:0px;
+  padding:0px;
+}
+.menu ul li{
+  position:relative;
+  float:left;
+  list-style:none;
+  text-align: center;
+    font-size:18px;
+    width:160px;
+    line-height:30px;
+   }
+.menu ul li .bccolor{color:lightblue; font-weight:bold;}
+.menu ul li ul{display:none;}
+.menu ul li ul li{margin-top:1px}
+.menu ul li:hover{background:red;}
+.menu ul li a:hover{color:blue;}
+.menu ul li:hover ul{display:block;position: absolute; left: 0px; top: 30px;}
+
+#search{
+  margin-top: 8px;
+}
+
+#font{
+  width: 100%;
+  text-align: center;
+}
